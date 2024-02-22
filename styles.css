@@ -4,36 +4,51 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+.container {
+    width: 90%;
+    margin: 0 auto;
     padding: 20px;
-    text-align: center;
 }
 
-h1 {
+header {
+    background-color: #232f3e;
+    color: #fff;
+}
+
+header h1 {
     margin: 0;
 }
 
-#episode-list {
-    padding: 20px;
-}
-
-#episodes {
+nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
-#episodes li {
-    margin-bottom: 10px;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#introduction {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#introduction h2 {
+    margin-bottom: 20px;
 }
 
 footer {
-    background-color: #333;
+    background-color: #232f3e;
     color: #fff;
-    padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     text-align: center;
+    padding: 20px 0;
 }
