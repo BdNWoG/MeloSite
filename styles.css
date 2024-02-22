@@ -8,6 +8,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    display: grid;
+    place-items: center;
 }
 
 header {
@@ -31,6 +33,9 @@ header img {
 .section-image {
     max-width: 30%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
+    padding: 20px 0;
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center align the image horizontally */
 }
 
 nav ul {
