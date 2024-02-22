@@ -25,17 +25,17 @@ header h1 {
 }
 
 header img {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Add some spacing between the logo and the title */
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
 }
 
 .section-image {
-    max-width: 30%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 30%; 
+    height: auto; 
     padding: 20px 0;
-    display: block; /* Ensure the image behaves as a block element */
-    margin: 0 auto; /* Center align the image horizontally */
+    display: block; 
+    margin: 0 auto; 
 }
 
 nav ul {
