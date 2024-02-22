@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFE4B5; /* Warm color scheme */
 }
 
 .container {
@@ -39,47 +38,51 @@ nav ul li a {
     font-size: 18px;
 }
 
-section {
+#contact-form {
     padding: 50px 0;
 }
 
-section h2 {
+#contact-form h2 {
     margin-bottom: 20px;
     color: #333;
     text-align: center;
 }
 
-.host {
-    text-align: center;
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
     margin-bottom: 20px;
 }
 
-.host img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
 }
 
-.previous-episodes .episode {
-    background-color: #fff;
-    padding: 20px;
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 20px;
 }
 
-.previous-episodes .episode h3 {
-    margin-top: 0;
-    color: #333;
+button {
+    padding: 10px 20px;
+    background-color: #FF4500; /* Warm color scheme */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.previous-episodes .episode p {
-    color: #555;
-}
-
-.previous-episodes .episode a {
-    color: #007bff;
-    text-decoration: none;
+button:hover {
+    background-color: #FF6347; /* Lighter shade of orange */
 }
 
 footer {
